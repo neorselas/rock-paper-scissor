@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rock.css">
+    <title>Rock, Paper, Scissor</title>
+</head>
+<body>
+
+  <nav>
+    <div class="navigation">
+        <h3>Roen Activities</h3>
+        <h3>Rock, Paper, & Scissor</h3>
+    </div>
+  </nav>
+
+    <div class="container">
+      <div class="rps-grid">
+        <h1>Rock, Paper, or Scissors</h1>
+
+        <p>Rules of the Game: <br> <strong>Rock</strong> beats <strong>scissors</strong>, <strong>scissors</strong> beats <strong>paper</strong>, and <strong>paper</strong> beats <strong>rock</strong>.</p>
+
+        <div class="scoreboard">
+          <h2>Scoreboard</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td id="humanScore">0</td>
+                <td id="computerScore">0</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>You</th>
+                <th>Computer</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+        <hr>
+        <div id="status"><h1>Let's Begin The Game !!!</h1></div>
+        <hr>
+
+        <h2>Choose Wisely</h2>
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+      </div>
+<!-- 
+      <div id="add">GAME HISTORY:</div>
+        <button id="btn_history" onclick="history();">Click Me</button>
+       -->
+    </div>
+
+    <script src="rock.js"></script>
+</body>
+</html>
