@@ -1,0 +1,86 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    text-align: center;
+    /* background: black; */
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-image: url(back.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color:#ffffff;
+  padding: 0 30px;
+  box-shadow: 0 0px 20px -0px rgb(238, 255, 0);
+}
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+       
+  }
+
+  .rps-grid{
+    border: 2px solid rgb(236, 253, 0);
+    padding: 20px;
+    margin: 20px;
+    background: black;
+  }
+
+  strong {
+    text-decoration: underline;
+    color: yellow;
+  }
+  
+  button {
+    background: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  button:active {
+    background: rgb(255, 4, 4);
+  }
+  
+  .scoreboard {
+    width: 14em;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .scoreboard h2 {
+    border-bottom: 5px solid rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px;
+  }
+  .scoreboard table {
+    margin: 10px auto;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .scoreboard th, .scoreboard td {
+    text-align: center;
+  }
+  .scoreboard td {
+    font-size: 3em;
+    padding: 0 20px;
+  }
+  
+  #status {
+    margin-top: 20px;
+    
+  }
