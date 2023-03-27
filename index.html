@@ -22,6 +22,11 @@
 
         <h4><b>Rules of the Game: <br> Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.</b></h4>
 
+
+        <hr>
+        <div id="status"><h1>Let's Begin The Game !!!</h1></div>
+        <hr>
+
         <div class="scoreboard">
           <h2>Scoreboard</h2>
           <table>
@@ -40,22 +45,16 @@
           </table>
         </div>
 
-        <hr>
-        <div id="status"><h1>Let's Begin The Game !!!</h1></div>
-        <hr>
 
         <h5>Click Button to Play</h5>
-        <button id="Rock">Rock</button>
-        <button id="Paper">Paper</button>
-        <button id="Scissors">Scissors</button>
+        <button id="Rock" onclick="playRock();">Rock</button>
+        <button id="Paper"onclick="playPaper();">Paper</button>
+        <button id="Scissors"onclick="playScissors();">Scissors</button>
         
       </div>
 
-        <div id="gamehistory"> <h2>GAME HISTORY:</h2>
-          <!-- <p id="add"></p> -->
-        </div>
-        <!-- <button id="btn_history" onclick="history();">Click Me</button> -->
-      
+        <div id="gamehistory"> <h2>GAME HISTORY:</h2></div>
+              
     </div>
 
     <script src="rock.js"></script>
