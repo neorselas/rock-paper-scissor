@@ -52,7 +52,7 @@ function play(humanPlay) {
     
   document.getElementById('humanScore').innerHTML = humanScore;
   document.getElementById('computerScore').innerHTML = computerScore;
-  gamehistory.innerHTML += `You: <b>${humanPlay}</b>  vs.  Computer: <b>${computerPlay}</b>` + '<br>';
+  gamehistory.innerHTML += `You: <b>${humanPlay}</b>  vs.  Computer: <b>${computerPlay}</b>` + '<br>'+ '<br>';
 
 }
 
