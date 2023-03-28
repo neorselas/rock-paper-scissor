@@ -1,6 +1,6 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: .8rem;
     text-align: center;
     /* background: black; */
     color: rgb(1, 75, 8);
@@ -17,7 +17,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  background-color: rgb(1, 41, 5);
   color:#ffffff;
   padding: 0 5%;
   box-shadow: 0 0px 20px -0px rgb(43, 40, 40);
@@ -66,22 +66,23 @@ body {
   }
   
   button {
-    background: rgb(143, 77, 2);
-    color: rgb(255, 255, 255);
     border: none;
-    width: 23%;
-    padding: 10px 15px;
-    margin: 1%;
-    font-size: 1em;
-    border-radius: 5px;
-    font-weight: bold;
+    background-color: white;
+  }
+
+  button img{
+    width: auto;
+    height: 90px;
+    /* padding: 5px; */
+
   }
   button:active {
-    background: rgb(180, 3, 3);
+    background: rgb(193, 196, 192);
+    border-radius: 20px;
   }
   
   .scoreboard {
-    width: 14em;
+    width: 16em;
     margin: auto;
     border: 2px solid rgb(175, 94, 2);
   }
