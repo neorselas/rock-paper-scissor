@@ -76,18 +76,18 @@ body {
     background-color: rgb(175, 94, 2);
   }
 
-  #span1 {
+  #span2 {
     color:rgb(0, 227, 235);
     font-style: oblique;
   }
 
-  #span2 {
+  #span1 {
     color:rgb(255, 174, 0);
     outline: 2px;
   }
 
   #span3 {
-    color:fuchsia;
+    color:rgb(83, 80, 83);
   }
 
   #span4{
