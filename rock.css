@@ -124,6 +124,11 @@ body {
     /* padding: 5px; */
 
   }
+
+  button img:hover{
+    transform: scale(1.2,1.2);
+
+  }
   button:active {
     background: rgb(193, 196, 192);
     border-radius: 20px;
