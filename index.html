@@ -18,9 +18,11 @@
 
     <div class="container">
       <div class="rps-grid">
-        <h1>◄ Rock, Paper, Scissors Game ►</h1>
+        <img src="image.png" alt="image" id="image1">
+        <img src="image3.png" alt="" id="image2">
+        <h1>◄ <span id="span3">Rock</span> <span id="span1">Paper</span> <span id="span2">Scissors</span> <span id="span4">Game</span>  ►</h1>
 
-        <h4><b>Rules of the Game: <br> Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.</b></h4>
+        <h4><b>Rules of the Game: <br>Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.</b></h4>
 
 
         <hr>
@@ -47,9 +49,11 @@
 
 
         <h5>Click Image to Play</h5>
-        <button id="Rock" onclick="playRock();"><img src="rock.png"></button>
-        <button id="Paper"onclick="playPaper();"><img src="paper.png"></button>
-        <button id="Scissors"onclick="playScissors();"><img src="scissor.png"></button>
+        <div class="btnBorder">
+          <button id="Rock" onclick="playRock();"><img src="rock.png"></button>
+          <button id="Paper"onclick="playPaper();"><img src="paper.png"></button>
+          <button id="Scissors"onclick="playScissors();"><img src="scissor.png"></button>
+        </div>
         
       </div>
 

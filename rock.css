@@ -35,9 +35,26 @@ body {
   }
 
   .rps-grid {
+    position: relative;
     padding: 1%;
     /* margin: 1%; */
     background: rgb(255, 255, 255);
+  }
+
+  #image1{
+    position: absolute;
+    height: 18%;
+    width:auto;
+    top: 55%;
+    right: 55px;
+  }
+
+  #image2{
+    position: absolute;
+    height: 17%;
+    width:auto;
+    bottom: 25%;
+    left: 2px;
   }
 
   .rps-grid h4{
@@ -59,6 +76,24 @@ body {
     background-color: rgb(175, 94, 2);
   }
 
+  #span1 {
+    color:rgb(0, 227, 235);
+    font-style: oblique;
+  }
+
+  #span2 {
+    color:rgb(255, 174, 0);
+    outline: 2px;
+  }
+
+  #span3 {
+    color:fuchsia;
+  }
+
+  #span4{
+    color:lawngreen;
+  }
+
   strong {
     /* text-decoration: underline; */
     font-size: 18px;
@@ -68,6 +103,13 @@ body {
   button {
     border: none;
     background-color: white;
+  }
+
+  .btnBorder {
+    border:2px solid rgb(175, 245, 173);
+    border-radius: 10px;
+    margin: 0px 10%;
+    margin-bottom: 10px;
   }
 
   button img{
@@ -83,7 +125,7 @@ body {
   }
   
   .scoreboard {
-    width: 16em;
+    width: 14em;
     margin: auto;
     border: 2px solid rgb(175, 94, 2);
   }
@@ -109,3 +151,9 @@ body {
     margin-top: 10px;
     
   }
+
+  @media (max-width:540px){
+    #image1, #image2{
+        display:none;
+    }
+}
