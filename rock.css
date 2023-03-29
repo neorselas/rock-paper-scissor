@@ -37,6 +37,8 @@ body {
   .rps-grid {
     position: relative;
     padding: 1%;
+    border: 5px solid rgb(1, 58, 1);
+    border-radius: 10px;
     /* margin: 1%; */
     background: rgb(255, 255, 255);
   }
@@ -64,6 +66,8 @@ body {
   }
 
   #gamehistory{
+    border: 5px solid rgb(1, 58, 1);
+    border-radius: 10px;
     width: 50vh;
     padding: 1%;
     background: rgb(255, 255, 255);
@@ -102,11 +106,12 @@ body {
   
   button {
     border: none;
-    background-color: white;
+    background-color: rgb(221, 245, 215);
   }
 
   .btnBorder {
     border:2px solid rgb(175, 245, 173);
+    background-color: rgb(221, 245, 215);
     border-radius: 10px;
     margin: 0px 10%;
     margin-bottom: 10px;
